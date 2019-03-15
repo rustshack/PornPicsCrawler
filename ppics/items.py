@@ -11,3 +11,5 @@ import scrapy
 class PpicsItem(scrapy.Item):
     image_urls = scrapy.Field()
     image = scrapy.Field()
+    model_name = scrapy.Field()
+    gallery_name = scrapy.Field()
